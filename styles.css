@@ -1,0 +1,245 @@
+/* Body */
+
+body {
+    background-image: url("./images/group-48096037.svg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+/* Header */
+
+#navbarNav {
+    margin-right: 20px;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn {
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 7px;
+    background: #F8BF02;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.enrollBtnBig {
+    display: flex;
+    width: 230px;
+    height: 70px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 12px;
+    border-radius: 7px;
+    background: #F8BF02;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* What you will learn */
+
+.card_img {
+    width: 299px;
+    height: 199px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120%;
+}
+
+/* Bullet Mark */
+
+ul.custom-bullet-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul.custom-bullet-list li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
+ul.custom-bullet-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url('./images/Verified\ Account.png');
+    background-size: cover;
+}
+
+.custom-bullet-list li {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Offer */
+
+#offer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Our Courses */
+
+.bordered-column {
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+/* Enrollments */
+
+.enrollment_title {
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+/* Logos */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-container img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Testimonial */
+
+
+.card {
+    border-radius: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: var(--generic-white, #FFF);
+    box-shadow: 0px 4px 16px 0px rgba(248, 191, 2, 0.20);
+}
+
+.circular-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    z-index: 1;
+}
+
+.image-top-left {
+    left: 5px;
+}
+
+.image-top-right {
+    right: 5px;
+}
+
+.card-title {
+    font-weight: normal;
+    text-align: center;
+    margin-top: 60px;
+    z-index: 2;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Frequently Asked Questions */
+
+.accordion-section .panel-default>.panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.accordion-section .panel-default .panel-title a:after {
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+
+/* Custom CSS for footer */
+.footer {
+    background: #F8BF02;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    padding: 0 15px;
+}
+
+.footer-column:nth-child(1) {
+    flex: 2;
+}
+
+.footer-column:nth-child(2),
+.footer-column:nth-child(3) {
+    flex: 1;
+}
+
+.copyright {
+    background-color: #222;
+    color: #F8D702;
+    text-align: center;
+    padding: 10px 0;
+}
